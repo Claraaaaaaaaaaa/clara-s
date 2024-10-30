@@ -2,6 +2,18 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+body {
+  color: white;
+}
 canvas {
   display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+a {
+  color:red;
 }

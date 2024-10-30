@@ -1,16 +1,19 @@
 let CharArr = 
-["School",
-  "of",
-  "the",
-  "Art",
-  "Institute",
-  "of",
-  "Chicago"];
-let speed =10;
+["Clara",
+  "JX",
+  "0",
+  "0",
+  "1",
+  "1",
+  "art",
+  "Yan",
+  "Jun",
+  "Liu"];
+let speed =18;
 // let char;
 let stream;
 let streams = [];
-let charSize = 90;
+let charSize = 9;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -62,6 +65,10 @@ class Char {
   //   this.setToRandomChar();
   //   this.rain();
   // }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight)
 }
 
 //多个字符一组的类
