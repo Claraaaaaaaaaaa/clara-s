@@ -4,7 +4,8 @@ html, body {
 }
 
 body {
-  color: white;
+  color: 	#c32b2b;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 canvas {
   display: block;
@@ -15,5 +16,5 @@ canvas {
 }
 
 a {
-  color:red;
+  color:#c32b2b;
 }
